@@ -1,0 +1,42 @@
+#background {
+  background-image: url("https://picsum.photos/0/0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: 50%;
+}
+
+#button {
+  background-color: black;
+  color: gold;
+}
+#link
+{
+  color: gold;
+}
+button:hover , #link:hover {
+  animation: icon 1s infinite;
+  transform: translateY(-10px);
+}
+@keyframes icon {
+  0% {
+    color: White;
+  }
+  50% {
+    color: gold;
+  }
+  100% {
+    color: White;
+  }
+}
+
+#control{
+  display: none;
+}
+#loginform{
+  display: block;
+}
+
+#connectionStatus {
+  color: red;
+}
