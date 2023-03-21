@@ -4,10 +4,10 @@
 
 Servo servo;
 
-const char *ssid = "HalaMadrid";      // Enter your WiFi name
-const char *password = "+Ramos1854";  // Enter WiFi password
+const char *ssid = "";      // Enter your WiFi name
+const char *password = "";  // Enter WiFi password
 
-const char *mqtt_broker = "m9fea71f.eu-central-1.emqx.cloud";
+const char *mqtt_broker = ""; //Enter your mqtt broker to establish connection
 const char *topic_pub = "door/buzzer";
 const char *topic_sub_1 = "door/buzzeroff";
 const char *topic_sub_2 = "door/isopen";
