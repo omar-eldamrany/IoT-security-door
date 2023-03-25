@@ -1,6 +1,6 @@
 let mqtt;
 let reconnectTimeout = 2000;
-let host = "m9fea71f.eu-central-1.emqx.cloud";
+let host = ""; /mqtt host
 let port = 8084;
 
 let dooropen = new Audio("dooropened.mp3");
