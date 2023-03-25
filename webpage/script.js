@@ -1,6 +1,6 @@
 let mqtt;
 let reconnectTimeout = 2000;
-let host = ""; /mqtt host
+let host = ""; //mqtt host
 let port = 8084;
 
 let dooropen = new Audio("dooropened.mp3");
